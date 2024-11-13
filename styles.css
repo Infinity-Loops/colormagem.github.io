@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0f2e0; /* Tom de verde claro */
+    color: #333;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #ff5722; /* Tom de laranja */
+    margin-bottom: 20px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.social-links img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.instagram {
+    background-color: #ff5722; /* Tom de laranja */
+}
+
+.instagram:hover {
+    background-color: #e64a19;
+}
+
+.whatsapp {
+    background-color: #4caf50; /* Tom de verde */
+}
+
+.whatsapp:hover {
+    background-color: #388e3c;
+}
